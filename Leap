@@ -1,0 +1,68 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+	int year1;
+	int year2;
+	int year3;
+	int year4;
+	int year5;
+	int year6;
+	int year7;
+	int year8;
+	int year9;
+	int year10;
+
+	cout << "Enter 10 years." << endl;
+	cin >> year1 >> year2 >> year3 >> year4 >> year5 >> year6 >> year7 >> year8 >> year9 >> year10;
+	if (((year1 % 4) == 0) || ((year1 % 400) == 0)){
+		cout << "It's a leap year." << endl;
+
+	}
+	else if (((year1 % 100) == 0)){
+		cout << "It's not a leap year." << endl;
+	}
+	else{
+		cout << "It's not a leap year." << endl;
+	}
+	
+	if (((year2 % 4) == 0) || ((year2 % 400) == 0)){
+		cout << "It's a leap year." << endl;
+
+	}
+	else if (((year2 % 100) == 0)){
+		cout << "It's not a leap year." << endl;
+	}
+	else{
+		cout << "It's not a leap year." << endl;
+	}
+	
+	if (((year3 % 4) == 0) || ((year3 % 400) == 0)){
+		cout << "It's a leap year." << endl;
+
+	}
+	else if (((year3 % 100) == 0)){
+		cout << "It's not a leap year." << endl;
+	}
+	else{
+		cout << "It's not a leap year." << endl;
+	}
+	
+	if (((year4 % 4) == 0) || ((year4 % 400) == 0)){
+		cout << "It's a leap year." << endl;
+
+	}
+	else if (((year4 % 100) == 0)){
+		cout << "It's not a leap year." << endl;
+	}
+	else{
+		cout << "It's not a leap year." << endl;
+	}
+
+
+
+
+
+return 0;
+}
